@@ -5,34 +5,33 @@ Project Overview: This project builds a machine learning model to predict the pr
 Dataset Source: https://drive.google.com/file/d/1I4wk5hVhl8l2Jl7sNbOq3du96CBZyTEq/view?usp=sharing
 
 Features:
+1. carat (diamond weight)
+2. cut (quality of cut: Ideal, Premium, Good, etc.)
+3. colour (color grade from D to J)
+4. clarity (purity level)
+5. depth and table (dimensions)
+6. size (additional feature)
+7. price (target variable)
 
-carat (diamond weight)
-cut (quality of cut: Ideal, Premium, Good, etc.)
-colour (color grade from D to J)
-clarity (purity level)
-depth and table (dimensions)
-size (additional feature)
-price (target variable)
 Technologies Used
+1. Python (Pandas, NumPy)
+2. Scikit-learn (RandomForestRegressor)
+3. Matplotlib & Seaborn (visualization)
+4. Google Colab (for coding)
 
-Python (Pandas, NumPy)
-Scikit-learn (RandomForestRegressor)
-Matplotlib & Seaborn (visualization)
-Google Colab (for coding)
 Workflow
+1. Upload dataset and load with Pandas
+2. Preprocess categorical features using Label Encoding
+3. Visualize feature relationships with heatmaps and scatter plots
+4. Train/test split and model training using Random Forest
+5. Evaluate model with MSE and R²
+6. Plot predicted vs actual prices
 
-Upload dataset and load with Pandas
-Preprocess categorical features using Label Encoding
-Visualize feature relationships with heatmaps and scatter plots
-Train/test split and model training using Random Forest
-Evaluate model with MSE and R²
-Plot predicted vs actual prices
 Results
+1. The model achieved a strong R² score on the test set
+2. Carat was the most significant predictor of price
 
-The model achieved a strong R² score on the test set
-Carat was the most significant predictor of price
 Files Included
-
-diamond_price_analysis.ipynb — Jupyter Notebook
-diamond_data.csv — Raw dataset
-README.md — This file
+1. diamond_price_analysis.ipynb — Jupyter Notebook
+2. diamond_data.csv — Raw dataset
+3. README.md — This file
